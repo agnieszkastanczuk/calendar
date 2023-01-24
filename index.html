@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ea908a7b6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+</head>
+<body class="classic">
+    <div class="calendar">
+        <div class="calendar-header">
+            <span class="month-picker" id="month-picker">
+                month
+            </span>
+            <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre><i class="fa-solid fa-caret-left"></i></pre>
+                </span>
+                <div id="year">year</div>
+                <span class="year-change" id="next-year">
+                    <pre><i class="fa-solid fa-caret-right"></i></pre>
+                </span>
+            </div>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-week-day">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thr</div>
+                <div>Fr</div>
+                <div>Sat</div>
+            </div>
+            <div class="calendar-days">
+            </div>
+        </div>
+        <div class="calender-footer">
+            <div class="toggle">
+                <span class="text">Retro Mode</span>
+                <div class="retro-mode-switch">
+                <div class="retro-mode-switch-ident"></div>
+                </div>
+        </div>
+    </div>    
+    <div class="month-list" id="month-list">
+        </div>
+    <script src="/app.js"></script>
+</body>
+</html>
